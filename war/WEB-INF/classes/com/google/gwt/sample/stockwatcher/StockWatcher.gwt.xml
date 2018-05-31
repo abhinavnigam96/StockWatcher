@@ -8,17 +8,11 @@
 <module rename-to='stockwatcher'>
   <!-- Inherit the core Web Toolkit stuff.                        -->
   <inherits name='com.google.gwt.user.User'/>
-
-  
   <inherits name='com.google.gwt.user.theme.clean.Clean'/>
   <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
-
   <entry-point class='com.google.gwt.sample.stockwatcher.client.StockWatcher'/>
-
   <!-- Specify the paths for translatable code-->                    
   <source path='client'/>
-  
-
   <!-- allow Super Dev Mode -->
   <add-linker name="xsiframe"/>
 </module>
