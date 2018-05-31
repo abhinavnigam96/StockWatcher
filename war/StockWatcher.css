@@ -1,0 +1,33 @@
+/** Add css rules here for your application. */
+
+body {
+  padding: 10px;
+}
+
+/* stock list header row */
+.watchListHeader {
+  background-color: #2062B8;
+  color: white;
+  font-style: italic;
+   text-align: center;
+}
+
+.watchListBorder {
+  border: 1px solid silver;
+  padding: 2px;
+  margin-bottom:6px;
+}
+
+.watchListNumericColumn {
+  text-align: center;
+  width:8em;
+}
+
+/* stock list Remove column */
+.watchListRemoveColumn {
+  text-align: center;
+}
+
+.addPanel {
+  margin: 10px 0px 15px 0px;
+}
